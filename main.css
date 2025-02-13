@@ -9,7 +9,7 @@ body {
 	display: flex;
 	height: 70vh;
 	width: 100%;
-	background-image: url(/img/ground.png);
+	background-image: url(ground.png);
 	background-size: cover;
 	background-position: center;
 	border-radius: 20px;
