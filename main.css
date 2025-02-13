@@ -1,0 +1,93 @@
+body {
+	background-color: #E0D1D1;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.header-ground {
+	display: flex;
+	height: 70vh;
+	width: 100%;
+	background-image: url(/img/ground.png);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.7);
+	text-shadow: 2px 2px 4px rgba(145, 114, 114, 0.5);
+}
+
+h1 {
+	position: absolute;
+	top: 0.1em;
+	left: 0.7em;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 2.5em;
+	width: 80%;
+}
+
+.container {
+	display: flex;
+	height: 450px;
+  width: 100%;
+  border: 2px #615757 solid;
+  border-radius: 20px;
+	margin-top: 10px;
+  background-color: #8a8383a2;
+  box-shadow: inset 0px 10px 50px 2px rgba(0, 0, 0, 0.7);
+	position: absolute;
+	justify-content: space-around;
+}
+
+.button-main {
+	height: 17em;  /* Примерное значение, подберите нужное */
+  width: 17em;   /* Примерное значение, подберите нужное */
+  border: 2px #615757 solid;
+  border-radius: 10px;
+  background-color: #C5B4B4;
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.7);
+  position: relative;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  font-size: 1.5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #947575;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button-main:hover {
+	background-color: #dfd4d4
+}
+
+@media (max-width: 768px) {
+  .button-main {
+    width: 15em;
+    height: 15em;
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .button-main {
+    width: 10em;
+    height: 10em;
+    font-size: 1em;
+  }
+}
+
